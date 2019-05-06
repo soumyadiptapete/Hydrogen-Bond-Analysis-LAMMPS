@@ -1,4 +1,5 @@
 function x=compute_hb_wh(i,water_mol,hydronium_mol,hydronium_len,dist_hb,angle_hb)
+% computes hydrogen bonds between water and hydronium molecules with either as donor or acceptor
 x=zeros(1,hydronium_len*5);
 hb_wh_count=0;
     for j=1:hydronium_len
