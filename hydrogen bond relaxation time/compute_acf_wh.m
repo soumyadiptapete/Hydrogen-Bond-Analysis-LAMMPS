@@ -1,7 +1,9 @@
 function [rsqr_wh_exp,tau_wh_exp]= compute_acf_wh(hb_wh,max_lags,time_const,i) 
+%%% computes the autocorrelation for the ith hydrogen bond time series in the hb_wh array
+
 warning('off','all');   
 
-start_point=hb_wh(1:20:100,i);
+start_point=hb_wh(1:20:100,i); %checks for the existence of the ith hydrogen bond in the first 100 timesteps at intervals of 20 timesteps. change this as per your needs
 if sum(start_point)>0
         i
         ACF_wh=zeros(max_lags+1,1);
