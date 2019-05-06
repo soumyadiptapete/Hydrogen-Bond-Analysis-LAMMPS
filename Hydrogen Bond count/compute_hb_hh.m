@@ -1,4 +1,5 @@
 function x=compute_hb_hh(i,hydronium_mol,hydronium_len,dist_hb,angle_hb)
+% computes hydrogen bonds between hydronium molecules as both donor and acceptor
 x=0;
     for j=1:hydronium_len
         hb_hh_count=0;
