@@ -1,0 +1,2 @@
+h_bond_count.m is used for computing number of hydrogen bonds between water molecules, water-hydronium and hydronium-hydronium moleucles in a LAMMPS 
+trajectory
