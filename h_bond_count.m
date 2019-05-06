@@ -1,3 +1,5 @@
+%% Code for counting the number of hydrogen bonds existing in between water and hydronium molecules in a LAMMPS molecular dynamics trajectory
+%% variables DP and lambda are obtained from the address of the file. They can also be input directly
 clc;close all; clear all;
 n_cores=32;
 parpool(n_cores);
