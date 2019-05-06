@@ -1,1 +1,6 @@
+h_bond_par_array.m is used to compute a a time series for hydrogen bonds in the system. a particular hydrogen will have a value 1 if it exists at a particular timestep or a value of 0 otherwise
 
+LAMMPS trajectory sorted wrt id
+water molecules can act as donors and acceptors and create h-bonds among themselves
+water molecules can also donate and accept h-bonds from hydronium molecules
+the code can be adjusted for other donor and acceptor molecules
