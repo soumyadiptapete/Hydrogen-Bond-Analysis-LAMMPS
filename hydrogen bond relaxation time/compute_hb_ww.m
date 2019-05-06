@@ -1,4 +1,5 @@
 function x=compute_hb_ww(i,water_mol,water_len,dist_hb,angle_hb)
+% computes hydrogen bonds between water molecules with water as both donor or acceptor
 hb_ww_count=0;
 x=zeros(1,(water_len-1)*2);
 for j=1:water_len
